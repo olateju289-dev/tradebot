@@ -1,0 +1,25 @@
+[2026-05-18 10:48:53] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 10:49:58] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 10:49:58] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 11:00:00] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 11:00:02] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 11:00:02] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 12:00:00] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 12:00:03] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 12:00:03] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 12:37:41] ERROR: Tick error: connection <monitor> to 65.62.4.59:27017 closed
+[2026-05-18 13:00:01] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 13:00:03] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 13:00:03] ERROR: Tick error: Binance candle fetch failed

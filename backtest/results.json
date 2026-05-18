@@ -1,0 +1,417 @@
+{
+  "settings": {
+    "shortPeriod": 5,
+    "longPeriod": 10,
+    "rsiBuyMax": 45,
+    "rsiSellMin": 55
+  },
+  "summary": {
+    "startingBalance": 1000,
+    "finalBalance": 1048.41,
+    "totalPnL": 48.41,
+    "winRate": "46.4",
+    "totalTrades": 28,
+    "wins": 13,
+    "losses": 15
+  },
+  "trades": [
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 66822.55646014048,
+      "exitPrice": 67833.35816343532,
+      "amount": 0.007482503311561404,
+      "pnl": 7.5633,
+      "entryTime": "2026-02-19T03:00:44.709Z",
+      "exitTime": "2026-02-21T06:02:07.329Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 67985.83510142777,
+      "exitPrice": 66966.04757490635,
+      "amount": 0.007410097453308151,
+      "pnl": -7.5567,
+      "entryTime": "2026-02-22T08:03:39.719Z",
+      "exitTime": "2026-02-23T01:02:25.581Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 66381.48055124872,
+      "exitPrice": 65385.75834297999,
+      "amount": 0.007532271002655667,
+      "pnl": -7.5,
+      "entryTime": "2026-02-23T10:02:14.214Z",
+      "exitTime": "2026-02-23T17:03:56.043Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 65941.42538516161,
+      "exitPrice": 64952.30400438418,
+      "amount": 0.007525668021473634,
+      "pnl": -7.4438,
+      "entryTime": "2026-02-28T01:03:32.868Z",
+      "exitTime": "2026-02-28T07:00:22.635Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 64469.59172637236,
+      "exitPrice": 66557.00472800883,
+      "amount": 0.007639747104799579,
+      "pnl": 15.9473,
+      "entryTime": "2026-02-28T15:02:44.040Z",
+      "exitTime": "2026-03-01T09:02:59.808Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 66912.03130812026,
+      "exitPrice": 65908.35083849846,
+      "amount": 0.00748004537707572,
+      "pnl": -7.5076,
+      "entryTime": "2026-03-01T16:03:07.684Z",
+      "exitTime": "2026-03-01T21:02:42.601Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 71238.28505185546,
+      "exitPrice": 70169.71077607763,
+      "amount": 0.006973093784711829,
+      "pnl": -7.4513,
+      "entryTime": "2026-03-06T02:03:21.499Z",
+      "exitTime": "2026-03-06T13:03:01.317Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 68275.39003217602,
+      "exitPrice": 67251.25918169337,
+      "amount": 0.007221132067877034,
+      "pnl": -7.3954,
+      "entryTime": "2026-03-07T02:03:07.085Z",
+      "exitTime": "2026-03-07T20:01:03.486Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 69965.12439910452,
+      "exitPrice": 70219.81853454876,
+      "amount": 0.00699388331754842,
+      "pnl": 1.7813,
+      "entryTime": "2026-03-12T10:02:20.654Z",
+      "exitTime": "2026-03-12T18:03:35.909Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 70652.39350585645,
+      "exitPrice": 71491.25288274372,
+      "amount": 0.006938456612045885,
+      "pnl": 5.8204,
+      "entryTime": "2026-03-14T07:03:26.121Z",
+      "exitTime": "2026-03-15T16:03:55.496Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 70284.79229992839,
+      "exitPrice": 69230.52041542946,
+      "amount": 0.007016151651530881,
+      "pnl": -7.3969,
+      "entryTime": "2026-03-19T20:01:15.027Z",
+      "exitTime": "2026-03-22T00:05:44.520Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 68795.5505642291,
+      "exitPrice": 67763.61730576566,
+      "amount": 0.007114272534295796,
+      "pnl": -7.3415,
+      "entryTime": "2026-03-22T09:04:16.860Z",
+      "exitTime": "2026-03-23T01:02:39.135Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 70327.56965564,
+      "exitPrice": 69272.6561108054,
+      "amount": 0.0069071001745179775,
+      "pnl": -7.2864,
+      "entryTime": "2026-03-24T23:01:42.313Z",
+      "exitTime": "2026-03-26T12:02:56.387Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 68712.98514161636,
+      "exitPrice": 67682.29036449212,
+      "amount": 0.007016379376961254,
+      "pnl": -7.2317,
+      "entryTime": "2026-03-27T01:02:01.307Z",
+      "exitTime": "2026-03-27T10:02:05.619Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 66327.66737271791,
+      "exitPrice": 66415.83889333812,
+      "amount": 0.007214191574070374,
+      "pnl": 0.6361,
+      "entryTime": "2026-03-28T00:01:48.123Z",
+      "exitTime": "2026-03-28T13:02:39.960Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 66741.21981768549,
+      "exitPrice": 68067.62035882538,
+      "amount": 0.00717425518317676,
+      "pnl": 9.5159,
+      "entryTime": "2026-03-29T06:02:28.603Z",
+      "exitTime": "2026-04-01T04:00:03.908Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "TAKE_PROFIT",
+      "entryPrice": 66876.89335408386,
+      "exitPrice": 70889.50695532889,
+      "amount": 0.0072308459010926905,
+      "pnl": 29.0146,
+      "entryTime": "2026-04-05T14:02:59.659Z",
+      "exitTime": "2026-04-07T23:02:59.712Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 71741.79142212505,
+      "exitPrice": 74954.96884562605,
+      "amount": 0.006942728856073669,
+      "pnl": 22.3082,
+      "entryTime": "2026-04-12T06:01:15.808Z",
+      "exitTime": "2026-04-16T05:00:40.828Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 74581.28237935815,
+      "exitPrice": 75921.29817954023,
+      "amount": 0.006827958692255742,
+      "pnl": 9.1496,
+      "entryTime": "2026-04-20T05:00:38.550Z",
+      "exitTime": "2026-04-21T02:00:56.297Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 76308.7293299303,
+      "exitPrice": 78791.52632630398,
+      "amount": 0.006733341074852549,
+      "pnl": 16.7175,
+      "entryTime": "2026-04-22T01:00:23.839Z",
+      "exitTime": "2026-04-22T22:00:05.923Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 77641.01117283583,
+      "exitPrice": 77940.84317164119,
+      "amount": 0.006725459305298413,
+      "pnl": 2.0165,
+      "entryTime": "2026-04-25T05:00:26.002Z",
+      "exitTime": "2026-04-26T14:00:52.097Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 77361.29911038803,
+      "exitPrice": 76200.87962373221,
+      "amount": 0.006762809325006156,
+      "pnl": -7.8477,
+      "entryTime": "2026-04-28T00:00:41.441Z",
+      "exitTime": "2026-04-28T12:00:41.615Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 76445.86122627115,
+      "exitPrice": 76379.67128631244,
+      "amount": 0.006792465397423494,
+      "pnl": -0.4496,
+      "entryTime": "2026-04-28T21:01:16.527Z",
+      "exitTime": "2026-05-01T01:00:53.489Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 78437.93476926665,
+      "exitPrice": 80980.88740291572,
+      "amount": 0.0066170925107099715,
+      "pnl": 16.827,
+      "entryTime": "2026-05-02T04:00:39.668Z",
+      "exitTime": "2026-05-05T12:00:50.660Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 79852.08374240961,
+      "exitPrice": 79799.24748348113,
+      "amount": 0.0066052696737674416,
+      "pnl": -0.349,
+      "entryTime": "2026-05-08T10:00:35.344Z",
+      "exitTime": "2026-05-08T17:00:43.496Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "STOP_LOSS",
+      "entryPrice": 80557.61091059956,
+      "exitPrice": 79349.24674694057,
+      "amount": 0.0065452542882215945,
+      "pnl": -7.9091,
+      "entryTime": "2026-05-12T22:00:28.571Z",
+      "exitTime": "2026-05-13T16:00:50.345Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 79371.06007842836,
+      "exitPrice": 79810.89690179186,
+      "amount": 0.006593278738905935,
+      "pnl": 2.9,
+      "entryTime": "2026-05-13T22:00:46.841Z",
+      "exitTime": "2026-05-14T14:00:42.849Z"
+    },
+    {
+      "type": "SELL",
+      "reason": "SIGNAL",
+      "entryPrice": 78180.62622289089,
+      "exitPrice": 78012.92029538131,
+      "amount": 0.0067122192752904035,
+      "pnl": -1.1257,
+      "entryTime": "2026-05-16T18:00:43.663Z",
+      "exitTime": "2026-05-17T17:00:47.708Z"
+    }
+  ],
+  "balanceHistory": [
+    {
+      "time": 1771322515931,
+      "balance": 1000
+    },
+    {
+      "time": 1771653727329,
+      "balance": 1007.56
+    },
+    {
+      "time": 1771808545581,
+      "balance": 1000.01
+    },
+    {
+      "time": 1771866236043,
+      "balance": 992.51
+    },
+    {
+      "time": 1772262022635,
+      "balance": 985.06
+    },
+    {
+      "time": 1772355779808,
+      "balance": 1001.01
+    },
+    {
+      "time": 1772398962601,
+      "balance": 993.5
+    },
+    {
+      "time": 1772802181317,
+      "balance": 986.05
+    },
+    {
+      "time": 1772913663486,
+      "balance": 978.66
+    },
+    {
+      "time": 1773338615909,
+      "balance": 980.44
+    },
+    {
+      "time": 1773590635496,
+      "balance": 986.26
+    },
+    {
+      "time": 1774137944520,
+      "balance": 978.86
+    },
+    {
+      "time": 1774227759135,
+      "balance": 971.52
+    },
+    {
+      "time": 1774526576387,
+      "balance": 964.23
+    },
+    {
+      "time": 1774605725619,
+      "balance": 957
+    },
+    {
+      "time": 1774702959960,
+      "balance": 957.64
+    },
+    {
+      "time": 1775016003908,
+      "balance": 967.15
+    },
+    {
+      "time": 1775602979712,
+      "balance": 996.17
+    },
+    {
+      "time": 1776315640828,
+      "balance": 1018.48
+    },
+    {
+      "time": 1776736856297,
+      "balance": 1027.63
+    },
+    {
+      "time": 1776895205923,
+      "balance": 1044.34
+    },
+    {
+      "time": 1777212052097,
+      "balance": 1046.36
+    },
+    {
+      "time": 1777377641615,
+      "balance": 1038.51
+    },
+    {
+      "time": 1777597253489,
+      "balance": 1038.06
+    },
+    {
+      "time": 1777982450660,
+      "balance": 1054.89
+    },
+    {
+      "time": 1778259643496,
+      "balance": 1054.54
+    },
+    {
+      "time": 1778688050345,
+      "balance": 1046.63
+    },
+    {
+      "time": 1778767242849,
+      "balance": 1049.53
+    },
+    {
+      "time": 1779037247708,
+      "balance": 1048.41
+    }
+  ]
+}

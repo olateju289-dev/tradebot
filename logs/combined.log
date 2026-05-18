@@ -1,0 +1,113 @@
+[2026-05-18 10:48:42] INFO: Exchange client running in SANDBOX (paper trade) mode
+[2026-05-18 10:48:42] INFO: ╔══════════════════════════════════╗
+[2026-05-18 10:48:42] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 10:48:42] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 10:48:42] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 10:48:42] INFO: ║  Mode     : PAPER TRADE         ║
+[2026-05-18 10:48:42] INFO: ╚══════════════════════════════════╝
+[2026-05-18 10:48:47] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 10:48:47] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 10:48:53] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 10:48:53] INFO: Bot scheduled: 0 * * * *
+[2026-05-18 10:49:46] INFO: ╔══════════════════════════════════╗
+[2026-05-18 10:49:46] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 10:49:46] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 10:49:46] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 10:49:46] INFO: ║  Mode     : PAPER TRADE         ║
+[2026-05-18 10:49:46] INFO: ╚══════════════════════════════════╝
+[2026-05-18 10:49:52] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 10:49:52] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 10:49:58] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 10:49:58] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 10:49:58] INFO: Bot scheduled: 0 * * * *
+[2026-05-18 10:52:30] INFO: ╔══════════════════════════════════╗
+[2026-05-18 10:52:30] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 10:52:30] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 10:52:30] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 10:52:30] INFO: ║  Mode     : PAPER TRADE         ║
+[2026-05-18 10:52:30] INFO: ╚══════════════════════════════════╝
+[2026-05-18 10:52:35] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 10:52:35] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 10:52:41] INFO: MA(9): 76925.56 | MA(21): 77001.62 | Prev MA(9): 76927.67 | Prev MA(21): 77049.62
+[2026-05-18 10:52:41] INFO: Signal: HOLD
+[2026-05-18 10:52:41] INFO: Bot scheduled: 0 * * * *
+[2026-05-18 11:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 11:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 11:00:00] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 11:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 11:00:02] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 11:00:02] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 11:00:03] INFO: MA(9): 76925.56 | MA(21): 77001.62 | Prev MA(9): 76927.67 | Prev MA(21): 77049.62
+[2026-05-18 11:00:03] INFO: Signal: HOLD
+[2026-05-18 11:32:24] INFO: ╔══════════════════════════════════╗
+[2026-05-18 11:32:24] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 11:32:24] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 11:32:24] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 11:32:24] INFO: ║  Mode     : PAPER TRADE         ║
+[2026-05-18 11:32:24] INFO: ╚══════════════════════════════════╝
+[2026-05-18 11:32:30] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 11:32:30] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 11:32:36] INFO: MA(5): 76951.80 | MA(10): 76921.50 | RSI: 55.13
+[2026-05-18 11:32:36] INFO: Signal: HOLD
+[2026-05-18 11:32:36] INFO: Bot scheduled: 0 * * * *
+[2026-05-18 12:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 12:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 12:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 12:00:00] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 12:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 12:00:02] INFO: MA(5): 76902.40 | MA(10): 76901.70 | RSI: 42.96
+[2026-05-18 12:00:02] INFO: Signal: HOLD
+[2026-05-18 12:00:03] INFO: MA(9): 76903.56 | MA(21): 76926.14 | Prev MA(9): 76916.89 | Prev MA(21): 76957.62
+[2026-05-18 12:00:03] INFO: Signal: HOLD
+[2026-05-18 12:00:03] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 12:00:03] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 12:36:44] INFO: ╔══════════════════════════════════╗
+[2026-05-18 12:36:44] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 12:36:44] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 12:36:44] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 12:36:44] INFO: ║  Mode     : PAPER TRADE         ║
+[2026-05-18 12:36:44] INFO: ╚══════════════════════════════════╝
+[2026-05-18 12:36:55] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 12:36:55] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 12:37:41] ERROR: Tick error: connection <monitor> to 65.62.4.59:27017 closed
+[2026-05-18 12:37:41] INFO: Bot scheduled: 0 * * * *
+[2026-05-18 13:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:00:01] ERROR: Tick error: binance GET https://testnet.binance.vision/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2026-05-18 13:00:03] INFO: MA(5): 76833.40 | MA(10): 76896.20 | RSI: 52.76
+[2026-05-18 13:00:03] INFO: Signal: HOLD
+[2026-05-18 13:00:03] INFO: MA(9): 76898.67 | MA(21): 76895.33 | Prev MA(9): 76906.89 | Prev MA(21): 76910.29
+[2026-05-18 13:00:03] INFO: Signal: BUY (Golden Cross)
+[2026-05-18 13:00:03] ERROR: Binance returned: {"code":0,"msg":"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."}
+[2026-05-18 13:00:03] ERROR: Tick error: Binance candle fetch failed
+[2026-05-18 13:00:04] INFO: Position size: 0.000647 (5% of 1000.00 USDT @ 77240)
+[2026-05-18 13:00:04] INFO: [PAPER] BUY 0.000647 BTC @ 77240 USDT
+[2026-05-18 13:00:04] INFO: Trade recorded | ID: 6a0aff4458964611a9ae29ec
+[2026-05-18 13:00:06] INFO: MA(5): 76833.40 | MA(10): 76896.20 | RSI: 52.76
+[2026-05-18 13:00:06] INFO: Signal: HOLD
+[2026-05-18 13:23:11] INFO: ╔══════════════════════════════════╗
+[2026-05-18 13:23:11] INFO: ║        TRADEBOT STARTING         ║
+[2026-05-18 13:23:11] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-05-18 13:23:11] INFO: ║  Timeframe: 1h                  ║
+[2026-05-18 13:23:11] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-05-18 13:23:11] INFO: ╚══════════════════════════════════╝
+[2026-05-18 13:23:13] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-05-18 13:23:13] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-05-18 13:23:16] INFO: MA(5): 77107.56 | MA(10): 77042.76 | RSI: 40.73
+[2026-05-18 13:23:16] INFO: Signal: HOLD
+[2026-05-18 13:23:16] INFO: Bot scheduled: 0 * * * *

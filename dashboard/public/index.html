@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tradebot Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg:       #080b0f;
+      --surface:  #0d1117;
+      --border:   #1c2433;
+      --green:    #00ff87;
+      --red:      #ff4d6d;
+      --yellow:   #ffd166;
+      --muted:    #4a5568;
+      --text:     #cdd9e5;
+      --dim:      #768390;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Syne', sans-serif;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    /* ── HEADER ─────────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon {
+      width: 36px; height: 36px;
+      background: var(--green);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+
+    h1 { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; }
+    h1 span { color: var(--green); }
+
+    .status-pill {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.78rem;
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
+    /* ── STAT CARDS ──────────────────────────────── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .stat-card:hover { border-color: var(--muted); }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+    }
+
+    .stat-card.green::before { background: var(--green); }
+    .stat-card.red::before   { background: var(--red); }
+    .stat-card.yellow::before { background: var(--yellow); }
+    .stat-card.blue::before  { background: #58a6ff; }
+
+    .stat-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--dim);
+      margin-bottom: 8px;
+    }
+
+    .stat-value {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .stat-value.positive { color: var(--green); }
+    .stat-value.negative { color: var(--red); }
+    .stat-value.neutral  { color: var(--text); }
+
+    .stat-sub {
+      margin-top: 6px;
+      font-size: 0.72rem;
+      color: var(--dim);
+      font-family: 'Share Tech Mono', monospace;
+    }
+
+    /* ── OPEN POSITION BANNER ────────────────────── */
+    #position-banner {
+      display: none;
+      background: rgba(0, 255, 135, 0.06);
+      border: 1px solid rgba(0, 255, 135, 0.25);
+      border-radius: 10px;
+      padding: 14px 20px;
+      margin-bottom: 24px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.82rem;
+      display: none;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    #position-banner.active { display: flex; }
+    #position-banner .tag { color: var(--green); font-weight: 600; }
+
+    /* ── CHARTS ROW ──────────────────────────────── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .chart-title {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--dim);
+      margin-bottom: 16px;
+    }
+
+    /* ── TABS ────────────────────────────────────── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 4px;
+      width: fit-content;
+    }
+
+    .tab {
+      padding: 8px 18px;
+      border-radius: 7px;
+      border: none;
+      background: transparent;
+      color: var(--dim);
+      font-family: 'Syne', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.5px;
+    }
+
+    .tab.active {
+      background: var(--border);
+      color: var(--text);
+    }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── TABLE ───────────────────────────────────── */
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+
+    thead tr {
+      background: #0a0f16;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--dim);
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+    td {
+      padding: 12px 16px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .badge.buy  { background: rgba(0,255,135,0.12); color: var(--green); }
+    .badge.sell { background: rgba(255,77,109,0.12); color: var(--red); }
+    .badge.open { background: rgba(255,209,102,0.12); color: var(--yellow); }
+
+    .pnl-pos { color: var(--green); }
+    .pnl-neg { color: var(--red); }
+
+    /* ── BACKTEST SECTION ────────────────────────── */
+    .backtest-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .bt-card {
+      background: #0a0f16;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .bt-label { font-size: 0.68rem; letter-spacing: 1px; text-transform: uppercase; color: var(--dim); margin-bottom: 6px; }
+    .bt-value { font-family: 'Share Tech Mono', monospace; font-size: 1.3rem; }
+
+    /* ── EMPTY STATE ─────────────────────────────── */
+    .empty {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--dim);
+      font-size: 0.88rem;
+    }
+
+    .empty code {
+      display: block;
+      margin-top: 10px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--green);
+    }
+
+    /* ── LOADING ─────────────────────────────────── */
+    .loading {
+      text-align: center;
+      padding: 32px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+      body { padding: 16px; }
+      .charts-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon">⚡</div>
+      <div>
+        <h1>Trade<span>Bot</span></h1>
+      </div>
+    </div>
+    <div class="status-pill">
+      <div class="dot"></div>
+      <span id="mode-label">PAPER TRADE</span>
+    </div>
+  </header>
+
+  <!-- STAT CARDS -->
+  <div class="stats-grid">
+    <div class="stat-card green">
+      <div class="stat-label">Total P&amp;L</div>
+      <div class="stat-value" id="total-pnl">—</div>
+      <div class="stat-sub" id="pnl-pct">loading...</div>
+    </div>
+    <div class="stat-card blue">
+      <div class="stat-label">Total Trades</div>
+      <div class="stat-value neutral" id="total-trades">—</div>
+      <div class="stat-sub" id="trade-sub">closed positions</div>
+    </div>
+    <div class="stat-card yellow">
+      <div class="stat-label">Win Rate</div>
+      <div class="stat-value neutral" id="win-rate">—</div>
+      <div class="stat-sub" id="win-sub">wins / losses</div>
+    </div>
+    <div class="stat-card red">
+      <div class="stat-label">Avg Win / Loss</div>
+      <div class="stat-value neutral" id="avg-win">—</div>
+      <div class="stat-sub" id="avg-loss">loading...</div>
+    </div>
+  </div>
+
+  <!-- OPEN POSITION BANNER -->
+  <div id="position-banner">
+    <span class="tag">⚡ OPEN POSITION</span>
+    <span id="pos-symbol">—</span>
+    <span>Entry: <b id="pos-entry">—</b></span>
+    <span>Amount: <b id="pos-amount">—</b></span>
+    <span>Signal: <b id="pos-signal">—</b></span>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-title">Balance Over Time</div>
+      <canvas id="balance-chart" height="120"></canvas>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Win / Loss Ratio</div>
+      <canvas id="winloss-chart" height="120"></canvas>
+    </div>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('live')">Live Trades</button>
+    <button class="tab" onclick="switchTab('backtest')">Backtest</button>
+  </div>
+
+  <!-- LIVE TRADES TAB -->
+  <div id="tab-live" class="tab-panel active">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Symbol</th>
+            <th>Side</th>
+            <th>Entry Price</th>
+            <th>Amount</th>
+            <th>P&amp;L</th>
+            <th>Status</th>
+            <th>Mode</th>
+          </tr>
+        </thead>
+        <tbody id="trades-body">
+          <tr><td colspan="8" class="loading">Loading trades...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- BACKTEST TAB -->
+  <div id="tab-backtest" class="tab-panel">
+    <div id="backtest-content">
+      <div class="loading">Loading backtest results...</div>
+    </div>
+  </div>
+
+  <script>
+    // ── Tab switching ──────────────────────────────────
+    function switchTab(name) {
+      document.querySelectorAll('.tab').forEach((t, i) => {
+        t.classList.toggle('active', ['live','backtest'][i] === name);
+      });
+      document.querySelectorAll('.tab-panel').forEach((p, i) => {
+        p.classList.toggle('active', ['tab-live','tab-backtest'][i] === `tab-${name}`);
+      });
+    }
+
+    // ── Format helpers ─────────────────────────────────
+    const fmt   = n  => n == null ? '—' : (n >= 0 ? '+' : '') + '$' + Math.abs(n).toFixed(2);
+    const fmtDt = dt => dt ? new Date(dt).toLocaleDateString('en-GB', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' }) : '—';
+
+    // ── Load stats ─────────────────────────────────────
+    async function loadStats() {
+      const s = await fetch('/api/stats').then(r => r.json());
+
+      const pnl = s.totalPnL;
+      document.getElementById('total-pnl').textContent     = fmt(pnl);
+      document.getElementById('total-pnl').className       = 'stat-value ' + (pnl >= 0 ? 'positive' : 'negative');
+      document.getElementById('pnl-pct').textContent       = `${((pnl / 1000) * 100).toFixed(2)}% return`;
+      document.getElementById('total-trades').textContent  = s.totalTrades;
+      document.getElementById('win-rate').textContent      = s.winRate + '%';
+      document.getElementById('win-sub').textContent       = `${s.wins} wins / ${s.losses} losses`;
+      document.getElementById('avg-win').textContent       = '+$' + (s.avgWin || 0);
+      document.getElementById('avg-loss').textContent      = 'avg loss: $' + Math.abs(s.avgLoss || 0);
+
+      // Open position banner
+      if (s.openTrade) {
+        const b = document.getElementById('position-banner');
+        b.classList.add('active');
+        document.getElementById('pos-symbol').textContent = s.openTrade.symbol;
+        document.getElementById('pos-entry').textContent  = '$' + s.openTrade.price?.toFixed(2);
+        document.getElementById('pos-amount').textContent = s.openTrade.amount?.toFixed(6);
+        document.getElementById('pos-signal').textContent = s.openTrade.signal || '—';
+      }
+    }
+
+    // ── Load trades table ──────────────────────────────
+    async function loadTrades() {
+      const trades = await fetch('/api/trades').then(r => r.json());
+      const tbody  = document.getElementById('trades-body');
+
+      if (!trades.length) {
+        tbody.innerHTML = `<tr><td colspan="8" class="empty">No trades yet.<code>npm run paper</code> to start the bot in paper trade mode.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = trades.map(t => {
+        const pnlClass = t.pnl > 0 ? 'pnl-pos' : t.pnl < 0 ? 'pnl-neg' : '';
+        const pnlText  = t.pnl != null ? fmt(t.pnl) : '—';
+        return `
+          <tr>
+            <td>${fmtDt(t.createdAt)}</td>
+            <td>${t.symbol}</td>
+            <td><span class="badge ${t.side}">${t.side.toUpperCase()}</span></td>
+            <td>$${t.price?.toFixed(2) || '—'}</td>
+            <td>${t.amount?.toFixed(6) || '—'}</td>
+            <td class="${pnlClass}">${pnlText}</td>
+            <td><span class="badge ${t.status}">${t.status}</span></td>
+            <td>${t.paperTrade ? '📄 Paper' : '💰 Live'}</td>
+          </tr>`;
+      }).join('');
+    }
+
+    // ── Load balance chart ─────────────────────────────
+    async function loadBalanceChart() {
+      const history = await fetch('/api/balance-history').then(r => r.json());
+
+      new Chart(document.getElementById('balance-chart'), {
+        type: 'line',
+        data: {
+          labels: history.map(h => h.time),
+          datasets: [{
+            data:            history.map(h => h.balance),
+            borderColor:     '#00ff87',
+            backgroundColor: 'rgba(0,255,135,0.06)',
+            borderWidth:     2,
+            pointRadius:     2,
+            fill:            true,
+            tension:         0.4,
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#4a5568', maxTicksLimit: 6 }, grid: { color: '#1c2433' } },
+            y: { ticks: { color: '#4a5568', callback: v => '$' + v }, grid: { color: '#1c2433' } },
+          }
+        }
+      });
+    }
+
+    // ── Load win/loss doughnut ─────────────────────────
+    async function loadWinLossChart() {
+      const s = await fetch('/api/stats').then(r => r.json());
+
+      new Chart(document.getElementById('winloss-chart'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Wins', 'Losses'],
+          datasets: [{
+            data:            [s.wins || 1, s.losses || 1],
+            backgroundColor: ['rgba(0,255,135,0.7)', 'rgba(255,77,109,0.7)'],
+            borderColor:     ['#00ff87', '#ff4d6d'],
+            borderWidth:     1,
+          }]
+        },
+        options: {
+          responsive: true,
+          cutout: '70%',
+          plugins: {
+            legend: { labels: { color: '#768390', font: { family: 'Syne' } } }
+          }
+        }
+      });
+    }
+
+    // ── Load backtest results ──────────────────────────
+    async function loadBacktest() {
+      const container = document.getElementById('backtest-content');
+      try {
+        const data = await fetch('/api/backtest').then(r => r.json());
+        if (data.error) throw new Error(data.error);
+
+        const s = data.summary;
+        const pnlClass = s.totalPnL >= 0 ? 'pnl-pos' : 'pnl-neg';
+
+        container.innerHTML = `
+          <div class="backtest-summary">
+            <div class="bt-card">
+              <div class="bt-label">Starting Balance</div>
+              <div class="bt-value">$${s.startingBalance}</div>
+            </div>
+            <div class="bt-card">
+              <div class="bt-label">Final Balance</div>
+              <div class="bt-value">$${s.finalBalance}</div>
+            </div>
+            <div class="bt-card">
+              <div class="bt-label">Net P&L</div>
+              <div class="bt-value ${pnlClass}">${fmt(s.totalPnL)}</div>
+            </div>
+            <div class="bt-card">
+              <div class="bt-label">Win Rate</div>
+              <div class="bt-value">${s.winRate}%</div>
+            </div>
+            <div class="bt-card">
+              <div class="bt-label">Total Trades</div>
+              <div class="bt-value">${s.totalTrades}</div>
+            </div>
+            <div class="bt-card">
+              <div class="bt-label">Wins / Losses</div>
+              <div class="bt-value">${s.wins} / ${s.losses}</div>
+            </div>
+          </div>
+          <div class="chart-card" style="margin-bottom:20px">
+            <div class="chart-title">Backtest Balance Curve</div>
+            <canvas id="bt-chart" height="100"></canvas>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Entry Time</th><th>Exit Time</th><th>Entry $</th><th>Exit $</th><th>Reason</th><th>P&L</th></tr></thead>
+              <tbody>
+                ${data.trades.slice(-50).map(t => `
+                  <tr>
+                    <td>${t.entryTime?.slice(0,10) || '—'}</td>
+                    <td>${t.exitTime?.slice(0,10) || '—'}</td>
+                    <td>$${t.entryPrice?.toFixed(2)}</td>
+                    <td>$${t.exitPrice?.toFixed(2)}</td>
+                    <td>${t.reason}</td>
+                    <td class="${t.pnl >= 0 ? 'pnl-pos':'pnl-neg'}">${fmt(t.pnl)}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>`;
+
+        // Render backtest balance chart
+        const bh = data.balanceHistory;
+        new Chart(document.getElementById('bt-chart'), {
+          type: 'line',
+          data: {
+            labels: bh.map((_, i) => i === 0 ? 'Start' : `T${i}`),
+            datasets: [{
+              data:            bh.map(h => h.balance),
+              borderColor:     '#ffd166',
+              backgroundColor: 'rgba(255,209,102,0.06)',
+              borderWidth:     2,
+              pointRadius:     0,
+              fill:            true,
+              tension:         0.4,
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { ticks: { color: '#4a5568', maxTicksLimit: 8 }, grid: { color: '#1c2433' } },
+              y: { ticks: { color: '#4a5568', callback: v => '$' + v }, grid: { color: '#1c2433' } },
+            }
+          }
+        });
+
+      } catch (err) {
+        container.innerHTML = `
+          <div class="empty">
+            No backtest results found.
+            <code>node backtest/fetchData.js &amp;&amp; node backtest/backtest.js</code>
+          </div>`;
+      }
+    }
+
+    // ── Init ───────────────────────────────────────────
+    loadStats();
+    loadTrades();
+    loadBalanceChart();
+    loadWinLossChart();
+    loadBacktest();
+
+    // Refresh live data every 30 seconds
+    setInterval(() => { loadStats(); loadTrades(); }, 30000);
+  </script>
+</body>
+</html>

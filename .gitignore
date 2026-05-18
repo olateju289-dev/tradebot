@@ -1,0 +1,27 @@
+# Exchange credentials (Binance Testnet to start)
+EXCHANGE=binance
+API_KEY=a6az6l3rvqe7ajesg3airRFFdePi2lhrEb8VesCpuBTO682fLO82lacCxJxN4ZVS
+API_SECRET=HrLfo2InqtZEB2KdczF0VixJR3sVklfUoFD7lAxdA00Aq6upL82AN9auEeLzJd5D
+
+# Set to 'true' for Binance Testnet / paper trading (ALWAYS start here)
+PAPER_TRADE=true
+
+# Trading pair and timeframe
+SYMBOL=BTC/USDT
+TIMEFRAME=1h
+
+# Strategy settings (Moving Average Crossover)
+SHORT_PERIOD=9
+LONG_PERIOD=21
+
+# Risk management
+MAX_TRADE_PERCENT=0.05       # Max 5% of balance per trade
+STOP_LOSS_PERCENT=0.02       # 2% stop loss
+TAKE_PROFIT_PERCENT=0.04     # 4% take profit
+MAX_DAILY_LOSS_PERCENT=0.10  # Stop bot if 10% lost in a day
+
+# MongoDB
+MONGO_URI=mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+
+# How often to run the strategy (cron format - every hour)
+CRON_SCHEDULE=0 * * * *
