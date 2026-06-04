@@ -25,3 +25,4 @@ MONGO_URI=mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb
 
 # How often to run the strategy (cron format - every hour)
 CRON_SCHEDULE=0 * * * *
+.env

@@ -27,12 +27,4 @@ module.exports = {
   cron: {
     schedule: process.env.CRON_SCHEDULE || '0 * * * *',
   },
-
-  const http = require('http');
-
-http.createServer((req, res) => {
-  res.write('Bot is running');
-  res.end();
-}).listen(process.env.PORT || 3001, () => {
-  console.log('Dashboard server running');
 };
