@@ -9,7 +9,15 @@ class RiskManager {
    */
   calcPositionSize(balance, price) {
     const riskableAmount = balance * config.risk.maxTradePercent;
-    const amount = riskableAmount / price;
+    let amount = riskableAmount / price;
+
+    // Bybit minimum BTC spot order is 0.000480 BTC
+    const MIN_BTC = 0.000480;
+    if (amount < MIN_BTC) {
+      amount = MIN_BTC;
+      logger.info(`Amount below minimum — using minimum: ${MIN_BTC} BTC`);
+    }
+
     logger.info(`Position size: ${amount.toFixed(6)} (${(config.risk.maxTradePercent * 100)}% of ${balance.toFixed(2)} USDT @ ${price})`);
     return parseFloat(amount.toFixed(6));
   }

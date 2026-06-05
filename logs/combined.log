@@ -6941,3 +6941,518 @@
 [2026-06-04 22:44:44] ERROR: Bybit order error: Insufficient balance.
 [2026-06-04 22:44:44] ERROR: Tick error: Insufficient balance.
 [2026-06-04 22:44:44] INFO: Bot scheduled: 0 * * * *
+[2026-06-04 22:58:24] INFO: ╔══════════════════════════════════╗
+[2026-06-04 22:58:24] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-04 22:58:24] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-04 22:58:24] INFO: ║  Timeframe: 1h                  ║
+[2026-06-04 22:58:24] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-04 22:58:24] INFO: ╚══════════════════════════════════╝
+[2026-06-04 22:58:27] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-04 22:58:27] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-04 22:58:29] INFO: MA(5): 63584.16 | MA(10): 63733.49 | RSI: 46.89
+[2026-06-04 22:58:29] INFO: Signal: HOLD
+[2026-06-04 22:58:29] INFO: Bot scheduled: 0 * * * *
+[2026-06-04 23:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-04 23:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-04 23:00:01] WARN: Stop-loss triggered! Entry: 77240 | Current: 63237.4 | SL: 76081.40
+[2026-06-04 23:00:02] INFO: MA(5): 63518.54 | MA(10): 63677.78 | RSI: 45.6
+[2026-06-04 23:00:02] INFO: Signal: HOLD
+[2026-06-04 23:00:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-04 23:00:02] ERROR: Tick error: Insufficient balance.
+[2026-06-04 23:42:28] INFO: ╔══════════════════════════════════╗
+[2026-06-04 23:42:28] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-04 23:42:28] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-04 23:42:28] INFO: ║  Timeframe: 1h                  ║
+[2026-06-04 23:42:28] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-04 23:42:28] INFO: ╚══════════════════════════════════╝
+[2026-06-04 23:42:30] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-04 23:42:30] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-04 23:42:33] INFO: MA(5): 63570.88 | MA(10): 63703.95 | RSI: 48.51
+[2026-06-04 23:42:33] INFO: Signal: HOLD
+[2026-06-04 23:42:33] INFO: Bot scheduled: 0 * * * *
+[2026-06-05 06:34:25] INFO: ╔══════════════════════════════════╗
+[2026-06-05 06:34:25] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 06:34:25] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 06:34:25] INFO: ║  Timeframe: 1h                  ║
+[2026-06-05 06:34:25] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 06:34:25] INFO: ╚══════════════════════════════════╝
+[2026-06-05 06:34:38] INFO: ╔══════════════════════════════════╗
+[2026-06-05 06:34:38] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 06:34:38] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 06:34:38] INFO: ║  Timeframe: 1h                  ║
+[2026-06-05 06:34:38] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 06:34:38] INFO: ╚══════════════════════════════════╝
+[2026-06-05 06:34:42] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 06:34:42] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-05 06:34:48] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 06:34:48] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-05 06:34:54] INFO: MA(5): 63135.72 | MA(10): 63362.72 | RSI: 43.48
+[2026-06-05 06:34:54] INFO: Signal: HOLD
+[2026-06-05 06:34:54] INFO: Bot scheduled: 0 * * * *
+[2026-06-05 06:34:56] INFO: MA(5): 63135.72 | MA(10): 63362.72 | RSI: 43.48
+[2026-06-05 06:34:56] INFO: Signal: HOLD
+[2026-06-05 06:34:56] INFO: Bot scheduled: 0 * * * *
+[2026-06-05 06:43:07] INFO: ╔══════════════════════════════════╗
+[2026-06-05 06:43:07] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 06:43:07] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 06:43:07] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 06:43:07] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 06:43:07] INFO: ╚══════════════════════════════════╝
+[2026-06-05 06:43:09] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 06:43:09] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 06:43:12] INFO: MA(5): 63271.32 | MA(10): 63350.68 | RSI: 45.26
+[2026-06-05 06:43:12] INFO: Signal: HOLD
+[2026-06-05 06:43:12] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 06:45:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 06:45:02] INFO: MA(5): 63161.20 | MA(10): 63273.24 | RSI: 43.95
+[2026-06-05 06:45:02] INFO: Signal: HOLD
+[2026-06-05 06:50:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 06:50:01] INFO: MA(5): 62994.64 | MA(10): 63198.86 | RSI: 44.21
+[2026-06-05 06:50:01] INFO: Signal: HOLD
+[2026-06-05 06:55:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 06:55:01] INFO: MA(5): 62859.62 | MA(10): 63125.78 | RSI: 44.38
+[2026-06-05 06:55:01] INFO: Signal: HOLD
+[2026-06-05 06:57:39] INFO: ╔══════════════════════════════════╗
+[2026-06-05 06:57:39] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 06:57:39] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 06:57:39] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 06:57:39] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 06:57:39] INFO: ╚══════════════════════════════════╝
+[2026-06-05 06:57:41] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 06:57:41] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 06:57:44] INFO: MA(5): 62813.60 | MA(10): 63102.77 | RSI: 39.32
+[2026-06-05 06:57:44] INFO: Signal: HOLD
+[2026-06-05 06:57:44] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:00:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:00:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-05 07:00:08] INFO: MA(5): 62595.30 | MA(10): 62972.12 | RSI: 23.92
+[2026-06-05 07:00:08] INFO: Signal: HOLD
+[2026-06-05 07:00:08] INFO: MA(5): 62712.84 | MA(10): 63124.94 | RSI: 37.08
+[2026-06-05 07:00:08] INFO: MA(5): 62595.30 | MA(10): 62972.12 | RSI: 23.92
+[2026-06-05 07:00:08] INFO: Signal: HOLD
+[2026-06-05 07:00:08] INFO: Signal: HOLD
+[2026-06-05 07:01:40] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:01:40] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:01:40] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:01:40] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:01:40] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:01:40] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:01:42] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:01:42] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:01:45] INFO: MA(5): 62626.48 | MA(10): 62987.71 | RSI: 28.13
+[2026-06-05 07:01:45] INFO: Signal: HOLD
+[2026-06-05 07:01:45] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:05:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:05:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:05:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:05:01] INFO: MA(5): 62433.22 | MA(10): 62847.92 | RSI: 10.81
+[2026-06-05 07:05:01] INFO: Signal: HOLD
+[2026-06-05 07:05:01] INFO: MA(5): 62433.22 | MA(10): 62847.92 | RSI: 10.81
+[2026-06-05 07:05:01] INFO: Signal: HOLD
+[2026-06-05 07:05:02] INFO: MA(5): 62433.22 | MA(10): 62847.92 | RSI: 10.81
+[2026-06-05 07:05:02] INFO: Signal: HOLD
+[2026-06-05 07:10:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:10:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:10:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:10:01] INFO: MA(5): 62415.10 | MA(10): 62777.53 | RSI: 23.96
+[2026-06-05 07:10:01] INFO: Signal: HOLD
+[2026-06-05 07:10:01] INFO: MA(5): 62420.70 | MA(10): 62780.33 | RSI: 24.78
+[2026-06-05 07:10:01] INFO: Signal: HOLD
+[2026-06-05 07:10:01] INFO: MA(5): 62420.70 | MA(10): 62780.33 | RSI: 24.78
+[2026-06-05 07:10:01] INFO: Signal: HOLD
+[2026-06-05 07:11:09] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:11:09] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:11:09] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:11:09] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:11:09] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:11:09] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:11:12] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:11:12] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:11:15] INFO: MA(5): 62428.56 | MA(10): 62784.26 | RSI: 26.3
+[2026-06-05 07:11:15] INFO: Signal: HOLD
+[2026-06-05 07:11:15] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:13:08] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:13:08] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:13:08] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:13:08] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:13:08] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:13:08] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:13:11] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:13:11] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:13:13] INFO: MA(5): 62391.88 | MA(10): 62765.92 | RSI: 22.58
+[2026-06-05 07:13:13] INFO: Signal: HOLD
+[2026-06-05 07:13:13] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:15:01] INFO: MA(5): 62224.46 | MA(10): 62602.01 | RSI: 20.63
+[2026-06-05 07:15:01] INFO: Signal: HOLD
+[2026-06-05 07:15:01] INFO: MA(5): 62224.46 | MA(10): 62602.01 | RSI: 20.63
+[2026-06-05 07:15:01] INFO: Signal: HOLD
+[2026-06-05 07:15:01] INFO: MA(5): 62224.46 | MA(10): 62602.01 | RSI: 20.63
+[2026-06-05 07:15:01] INFO: MA(5): 62224.46 | MA(10): 62602.01 | RSI: 20.63
+[2026-06-05 07:15:01] INFO: Signal: HOLD
+[2026-06-05 07:15:01] INFO: Signal: HOLD
+[2026-06-05 07:15:02] INFO: MA(5): 62234.08 | MA(10): 62606.82 | RSI: 22.31
+[2026-06-05 07:15:02] INFO: Signal: HOLD
+[2026-06-05 07:16:06] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:16:06] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:16:06] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:16:06] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:16:06] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:16:06] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:16:09] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:16:09] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:16:12] INFO: MA(5): 62214.38 | MA(10): 62596.97 | RSI: 20.06
+[2026-06-05 07:16:12] INFO: Signal: HOLD
+[2026-06-05 07:16:12] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:20:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:20:02] INFO: MA(5): 62081.74 | MA(10): 62428.82 | RSI: 20.05
+[2026-06-05 07:20:02] INFO: Signal: HOLD
+[2026-06-05 07:23:49] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:23:49] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:23:49] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:23:49] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:23:49] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:23:49] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:23:51] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:23:51] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:23:58] INFO: MA(3): 61782.20 | MA(6): 62047.40 | RSI: 15.87
+[2026-06-05 07:23:58] INFO: Signal: HOLD
+[2026-06-05 07:23:58] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:25:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:25:02] INFO: MA(3): 61608.20 | MA(6): 61920.67 | RSI: 18.41
+[2026-06-05 07:25:02] INFO: Signal: HOLD
+[2026-06-05 07:30:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:30:01] INFO: MA(3): 61612.27 | MA(6): 61866.47 | RSI: 21.13
+[2026-06-05 07:30:01] INFO: Signal: HOLD
+[2026-06-05 07:35:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:35:02] INFO: MA(3): 61693.03 | MA(6): 61743.75 | RSI: 18.2
+[2026-06-05 07:35:02] INFO: Signal: HOLD
+[2026-06-05 07:40:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:40:02] INFO: MA(3): 61784.37 | MA(6): 61721.10 | RSI: 22.89
+[2026-06-05 07:40:02] INFO: Signal: BUY (Golden Cross + RSI 22.89 oversold)
+[2026-06-05 07:40:03] INFO: Position size: 0.000217 (50% of 26.78 USDT @ 61828.8)
+[2026-06-05 07:40:04] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:40:04] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 07:41:14] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:41:14] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:41:14] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:41:14] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:41:14] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:41:14] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:41:18] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:41:18] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:41:20] INFO: MA(3): 61804.80 | MA(6): 61731.32 | RSI: 24.55
+[2026-06-05 07:41:20] INFO: Signal: BUY (Golden Cross + RSI 24.55 oversold)
+[2026-06-05 07:41:21] INFO: Position size: 0.000411 (95% of 26.78 USDT @ 61877.6)
+[2026-06-05 07:41:21] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:41:21] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 07:41:21] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:43:28] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:43:28] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:43:28] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:43:28] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:43:28] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:43:28] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:43:31] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:43:31] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:43:34] INFO: MA(3): 61789.47 | MA(6): 61723.65 | RSI: 23.31
+[2026-06-05 07:43:34] INFO: Signal: BUY (Golden Cross + RSI 23.31 oversold)
+[2026-06-05 07:43:36] INFO: Amount below minimum — using minimum: 0.00048 BTC
+[2026-06-05 07:43:36] INFO: Position size: 0.000480 (95% of 26.78 USDT @ 61842.5)
+[2026-06-05 07:43:36] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:43:36] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 07:43:36] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:45:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:45:01] INFO: MA(3): 62049.77 | MA(6): 61833.75 | RSI: 33.47
+[2026-06-05 07:45:01] INFO: Signal: HOLD
+[2026-06-05 07:50:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:50:02] INFO: MA(3): 61972.07 | MA(6): 61853.30 | RSI: 32.54
+[2026-06-05 07:50:02] INFO: Signal: HOLD
+[2026-06-05 07:50:45] INFO: ╔══════════════════════════════════╗
+[2026-06-05 07:50:45] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 07:50:45] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 07:50:45] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 07:50:45] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 07:50:45] INFO: ╚══════════════════════════════════╝
+[2026-06-05 07:50:47] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 07:50:47] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:50:51] INFO: MA(3): 61958.57 | MA(6): 61846.55 | RSI: 32.1
+[2026-06-05 07:50:51] INFO: Signal: HOLD
+[2026-06-05 07:50:51] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 07:55:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:55:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 07:55:01] INFO: MA(3): 61957.53 | MA(6): 61924.50 | RSI: 36.25
+[2026-06-05 07:55:01] INFO: Signal: HOLD
+[2026-06-05 07:55:02] INFO: MA(3): 61955.97 | MA(6): 61923.72 | RSI: 36.19
+[2026-06-05 07:55:02] INFO: Signal: HOLD
+[2026-06-05 08:00:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:00:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-05 08:00:01] INFO: MA(3): 61961.33 | MA(6): 61958.30 | RSI: 36.7
+[2026-06-05 08:00:01] INFO: Signal: HOLD
+[2026-06-05 08:00:01] INFO: MA(5): 62513.20 | MA(10): 62958.83 | RSI: 35.03
+[2026-06-05 08:00:01] INFO: Signal: HOLD
+[2026-06-05 08:00:02] INFO: MA(3): 61959.87 | MA(6): 61957.57 | RSI: 36.65
+[2026-06-05 08:00:02] INFO: Signal: HOLD
+[2026-06-05 08:05:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:05:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:05:01] INFO: MA(3): 61783.73 | MA(6): 61898.65 | RSI: 39.21
+[2026-06-05 08:05:01] INFO: Signal: HOLD
+[2026-06-05 08:05:02] INFO: MA(3): 61783.73 | MA(6): 61898.65 | RSI: 39.21
+[2026-06-05 08:05:02] INFO: Signal: HOLD
+[2026-06-05 08:10:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:10:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:10:05] INFO: MA(3): 61603.27 | MA(6): 61774.67 | RSI: 39.55
+[2026-06-05 08:10:05] INFO: Signal: HOLD
+[2026-06-05 08:10:05] INFO: MA(3): 61603.27 | MA(6): 61774.67 | RSI: 39.55
+[2026-06-05 08:10:05] INFO: Signal: HOLD
+[2026-06-05 08:11:58] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:11:58] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:11:58] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 08:11:58] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:11:58] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:11:58] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:12:06] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:12:06] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:12:10] INFO: MA(3): 61532.60 | MA(6): 61739.33 | RSI: 36.31
+[2026-06-05 08:12:10] INFO: Signal: HOLD
+[2026-06-05 08:12:10] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:15:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:15:01] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 08:20:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:20:01] INFO: MA(3): 61618.13 | MA(6): 61670.60 | RSI: 41.54
+[2026-06-05 08:20:01] INFO: Signal: HOLD
+[2026-06-05 08:25:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:25:02] INFO: MA(3): 61772.00 | MA(6): 61672.13 | RSI: 49.58
+[2026-06-05 08:25:02] INFO: Signal: HOLD
+[2026-06-05 08:28:34] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:28:34] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:28:34] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 08:28:34] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:28:34] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:28:34] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:28:45] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:28:45] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:28:49] INFO: MA(3): 61919.53 | MA(6): 61745.90 | RSI: 58.02
+[2026-06-05 08:28:49] INFO: Signal: HOLD
+[2026-06-05 08:28:49] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:29:45] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:29:45] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:29:45] INFO: ║  Symbol   : BTC/USDT            ║
+[2026-06-05 08:29:45] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:29:45] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:29:45] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:29:48] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:29:48] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:29:51] INFO: MA(3): 61920.77 | MA(6): 61746.52 | RSI: 58.07
+[2026-06-05 08:29:51] INFO: Signal: BUY (MA bullish + RSI 58.07 oversold)
+[2026-06-05 08:29:52] INFO: Position size: 0.000519 (95% of 34.02 USDT @ 62254.3)
+[2026-06-05 08:29:53] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:29:53] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:29:53] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:30:00] INFO: ── Tick | BTC/USDT | 5m ──────────────────
+[2026-06-05 08:30:01] INFO: MA(3): 62108.93 | MA(6): 61838.38 | RSI: 66.91
+[2026-06-05 08:30:01] INFO: Signal: HOLD
+[2026-06-05 08:32:41] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:32:41] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:32:41] INFO: ║  Symbol   : ETH/USDT            ║
+[2026-06-05 08:32:41] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:32:41] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:32:41] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:32:45] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:32:45] INFO: ── Tick | ETH/USDT | 5m ──────────────────
+[2026-06-05 08:32:49] INFO: MA(3): 1655.90 | MA(6): 1648.57 | RSI: 63.29
+[2026-06-05 08:32:49] INFO: Signal: BUY (MA bullish + RSI 63.29 oversold)
+[2026-06-05 08:32:50] INFO: Position size: 0.019462 (95% of 34.02 USDT @ 1660.5)
+[2026-06-05 08:32:50] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:32:50] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:32:50] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:33:43] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:33:43] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:33:43] INFO: ║  Symbol   : SOL/USDT            ║
+[2026-06-05 08:33:43] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:33:43] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:33:43] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:33:54] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:33:54] INFO: ── Tick | SOL/USDT | 5m ──────────────────
+[2026-06-05 08:34:00] INFO: MA(3): 65.38 | MA(6): 64.84 | RSI: 67.37
+[2026-06-05 08:34:00] INFO: Signal: HOLD
+[2026-06-05 08:34:00] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:34:55] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:34:55] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:34:55] INFO: ║  Symbol   : SOL/USDT            ║
+[2026-06-05 08:34:55] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:34:55] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:34:55] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:35:01] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:35:01] INFO: ── Tick | SOL/USDT | 5m ──────────────────
+[2026-06-05 08:35:07] INFO: MA(3): 65.75 | MA(6): 65.11 | RSI: 65.59
+[2026-06-05 08:35:07] INFO: Signal: BUY (MA bullish + RSI 65.59 oversold)
+[2026-06-05 08:35:08] INFO: Position size: 0.490534 (95% of 34.02 USDT @ 65.88)
+[2026-06-05 08:35:08] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:35:08] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:35:08] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:36:00] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:36:00] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:36:00] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 08:36:00] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:36:00] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:36:00] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:36:07] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:36:07] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:36:14] INFO: MA(3): 1.13 | MA(6): 1.12 | RSI: 72.11
+[2026-06-05 08:36:14] INFO: Signal: HOLD
+[2026-06-05 08:36:14] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:36:47] INFO: ╔══════════════════════════════════╗
+[2026-06-05 08:36:47] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 08:36:47] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 08:36:47] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 08:36:47] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 08:36:47] INFO: ╚══════════════════════════════════╝
+[2026-06-05 08:36:51] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 08:36:51] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:36:58] INFO: MA(3): 1.13 | MA(6): 1.12 | RSI: 71.39
+[2026-06-05 08:36:58] INFO: Signal: BUY (MA bullish + RSI 71.39 oversold)
+[2026-06-05 08:36:59] INFO: Position size: 28.545520 (95% of 34.02 USDT @ 1.1321)
+[2026-06-05 08:36:59] INFO: Order placed | ID: 2230606528149460224
+[2026-06-05 08:36:59] INFO: Trade recorded | ID: 6a227c9b25fbf1c8a0bbd984
+[2026-06-05 08:36:59] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 08:40:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:40:01] INFO: MA(3): 1.13 | MA(6): 1.12 | RSI: 71.12
+[2026-06-05 08:40:01] INFO: Signal: BUY (MA bullish + RSI 71.12 oversold)
+[2026-06-05 08:40:01] INFO: Skipping BUY — already in a position.
+[2026-06-05 08:45:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:45:11] ERROR: Tick error: getaddrinfo ENOTFOUND api.bybit.com
+[2026-06-05 08:50:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:50:50] ERROR: Tick error: connection 4 to 65.62.4.57:27017 closed
+[2026-06-05 08:55:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 08:55:11] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 67.42
+[2026-06-05 08:55:11] INFO: Signal: BUY (MA bullish + RSI 67.42 oversold)
+[2026-06-05 08:55:11] INFO: Skipping BUY — already in a position.
+[2026-06-05 09:00:00] INFO: ── Tick | BTC/USDT | 1h ──────────────────
+[2026-06-05 09:00:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:00:02] INFO: MA(3): 1.14 | MA(6): 1.14 | RSI: 69.31
+[2026-06-05 09:00:02] INFO: Signal: BUY (MA bullish + RSI 69.31 oversold)
+[2026-06-05 09:00:02] INFO: Skipping BUY — already in a position.
+[2026-06-05 09:00:10] INFO: Take-profit triggered! Entry: 1.1321 | Current: 63035 | TP: 1.20
+[2026-06-05 09:00:11] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:00:11] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:05:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:05:02] INFO: MA(3): 1.13 | MA(6): 1.14 | RSI: 64.67
+[2026-06-05 09:05:02] INFO: Signal: SELL (MA bearish + RSI 64.67 overbought)
+[2026-06-05 09:05:03] ERROR: Bybit order error: Order quantity has too many decimals.
+[2026-06-05 09:05:03] ERROR: Tick error: Order quantity has too many decimals.
+[2026-06-05 09:07:38] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:07:38] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:07:38] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:07:38] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:07:38] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:07:38] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:07:54] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:07:54] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:07:59] INFO: MA(3): 1.13 | MA(6): 1.14 | RSI: 64.67
+[2026-06-05 09:07:59] INFO: Signal: SELL (MA bearish + RSI 64.67 overbought)
+[2026-06-05 09:08:00] ERROR: Bybit order error: Request parameter error.
+[2026-06-05 09:08:00] ERROR: Tick error: Request parameter error.
+[2026-06-05 09:08:00] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:10:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:10:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:10:01] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 66.8
+[2026-06-05 09:10:01] INFO: Signal: SELL (MA bearish + RSI 66.8 overbought)
+[2026-06-05 09:10:02] ERROR: Bybit order error: Request parameter error.
+[2026-06-05 09:10:02] ERROR: Tick error: Request parameter error.
+[2026-06-05 09:10:04] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 66.12
+[2026-06-05 09:10:04] INFO: Signal: SELL (MA bearish + RSI 66.12 overbought)
+[2026-06-05 09:10:04] ERROR: Bybit order error: Order quantity has too many decimals.
+[2026-06-05 09:10:04] ERROR: Tick error: Order quantity has too many decimals.
+[2026-06-05 09:11:42] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:11:42] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:11:42] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:11:42] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:11:42] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:11:42] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:11:45] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:11:45] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:11:51] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:11:51] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:12:13] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:12:13] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:12:13] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:12:13] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:12:13] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:12:13] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:12:16] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:12:16] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:12:22] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:12:22] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:15:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:15:01] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 71.77
+[2026-06-05 09:15:01] INFO: Signal: SELL (MA bearish + RSI 71.77 overbought)
+[2026-06-05 09:15:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:15:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:16:43] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:16:43] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:16:43] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:16:43] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:16:43] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:16:43] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:16:50] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:16:50] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:16:55] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 70.43
+[2026-06-05 09:16:55] INFO: Signal: SELL (MA bearish + RSI 70.43 overbought)
+[2026-06-05 09:16:56] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:16:56] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:16:56] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:19:15] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:19:15] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:19:15] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:19:15] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:19:15] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:19:15] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:19:24] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:19:24] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:19:31] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 66.39
+[2026-06-05 09:19:31] INFO: Signal: SELL (MA bearish + RSI 66.39 overbought)
+[2026-06-05 09:19:32] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:19:32] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:19:32] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:20:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:20:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:20:00] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:20:01] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 73.3
+[2026-06-05 09:20:01] INFO: Signal: SELL (MA bearish + RSI 73.3 overbought)
+[2026-06-05 09:20:01] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 73.3
+[2026-06-05 09:20:01] INFO: Signal: SELL (MA bearish + RSI 73.3 overbought)
+[2026-06-05 09:20:02] INFO: MA(3): 1.13 | MA(6): 1.13 | RSI: 73.3
+[2026-06-05 09:20:02] INFO: Signal: SELL (MA bearish + RSI 73.3 overbought)
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:21:01] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:21:01] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:21:01] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:21:01] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:21:01] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:21:01] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:21:06] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:21:06] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:21:10] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:21:10] INFO: Bot scheduled: */5 * * * *
+[2026-06-05 09:21:24] INFO: ╔══════════════════════════════════╗
+[2026-06-05 09:21:24] INFO: ║        TRADEBOT STARTING         ║
+[2026-06-05 09:21:24] INFO: ║  Symbol   : XRP/USDT            ║
+[2026-06-05 09:21:24] INFO: ║  Timeframe: 5m                  ║
+[2026-06-05 09:21:24] INFO: ║  Mode     : ⚠ LIVE              ║
+[2026-06-05 09:21:24] INFO: ╚══════════════════════════════════╝
+[2026-06-05 09:21:29] INFO: MongoDB connected: mongodb://dev_Samuel:Olateju+98@ac-fgwz52s-shard-00-00.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-01.n1fna5z.mongodb.net:27017,ac-fgwz52s-shard-00-02.n1fna5z.mongodb.net:27017/?ssl=true&replicaSet=atlas-o5qtrt-shard-0&authSource=admin&appName=Cluster0
+[2026-06-05 09:21:29] INFO: ── Tick | XRP/USDT | 5m ──────────────────
+[2026-06-05 09:21:32] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:21:32] INFO: Bot scheduled: */5 * * * *

@@ -11,7 +11,7 @@ function sma(closes, period) {
 function analyze(candles) {
   const { shortPeriod, longPeriod } = config.strategy;
   const RSI_PERIOD   = 14;
-  const RSI_BUY_MAX  = 45;
+  const RSI_BUY_MAX  = 75;
   const RSI_SELL_MIN = 55;
 
   const needed = Math.max(longPeriod + 1, RSI_PERIOD + 1);
@@ -23,31 +23,20 @@ function analyze(candles) {
   const closes    = candles.map(c => c[4]);
   const shortNow  = sma(closes, shortPeriod);
   const longNow   = sma(closes, longPeriod);
-  const prevClose = closes.slice(0, -1);
-  const shortPrev = sma(prevClose, shortPeriod);
-  const longPrev  = sma(prevClose, longPeriod);
   const rsi       = calculateRSI(closes, RSI_PERIOD);
 
   logger.info(`MA(${shortPeriod}): ${shortNow?.toFixed(2)} | MA(${longPeriod}): ${longNow?.toFixed(2)} | RSI: ${rsi}`);
 
-  const goldenCross = shortPrev <= longPrev && shortNow > longNow;
-  if (goldenCross) {
-    if (rsi !== null && rsi < RSI_BUY_MAX) {
-      logger.info(`Signal: BUY (Golden Cross + RSI ${rsi} oversold)`);
-      return 'BUY';
-    }
-    logger.info(`Signal: HOLD (Golden Cross but RSI ${rsi} not oversold yet)`);
-    return 'HOLD';
+  // BUY — short MA above long MA AND RSI oversold
+  if (shortNow > longNow && rsi !== null && rsi < RSI_BUY_MAX) {
+    logger.info(`Signal: BUY (MA bullish + RSI ${rsi} oversold)`);
+    return 'BUY';
   }
 
-  const deathCross = shortPrev >= longPrev && shortNow < longNow;
-  if (deathCross) {
-    if (rsi !== null && rsi > RSI_SELL_MIN) {
-      logger.info(`Signal: SELL (Death Cross + RSI ${rsi} overbought)`);
-      return 'SELL';
-    }
-    logger.info(`Signal: HOLD (Death Cross but RSI ${rsi} not overbought yet)`);
-    return 'HOLD';
+  // SELL — short MA below long MA AND RSI overbought
+  if (shortNow < longNow && rsi !== null && rsi > RSI_SELL_MIN) {
+    logger.info(`Signal: SELL (MA bearish + RSI ${rsi} overbought)`);
+    return 'SELL';
   }
 
   logger.info('Signal: HOLD');

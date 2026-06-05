@@ -400,3 +400,46 @@
 [2026-06-04 22:00:14] ERROR: Tick error: getaddrinfo ENOTFOUND api.bybit.com
 [2026-06-04 22:44:44] ERROR: Bybit order error: Insufficient balance.
 [2026-06-04 22:44:44] ERROR: Tick error: Insufficient balance.
+[2026-06-04 23:00:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-04 23:00:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 07:40:04] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:40:04] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 07:41:21] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:41:21] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 07:43:36] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 07:43:36] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:15:01] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 08:29:53] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:29:53] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:32:50] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:32:50] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:35:08] ERROR: Bybit order error: Order value exceeded lower limit.
+[2026-06-05 08:35:08] ERROR: Tick error: Order value exceeded lower limit.
+[2026-06-05 08:45:11] ERROR: Tick error: getaddrinfo ENOTFOUND api.bybit.com
+[2026-06-05 08:50:50] ERROR: Tick error: connection 4 to 65.62.4.57:27017 closed
+[2026-06-05 09:00:11] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:00:11] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:05:03] ERROR: Bybit order error: Order quantity has too many decimals.
+[2026-06-05 09:05:03] ERROR: Tick error: Order quantity has too many decimals.
+[2026-06-05 09:08:00] ERROR: Bybit order error: Request parameter error.
+[2026-06-05 09:08:00] ERROR: Tick error: Request parameter error.
+[2026-06-05 09:10:02] ERROR: Bybit order error: Request parameter error.
+[2026-06-05 09:10:02] ERROR: Tick error: Request parameter error.
+[2026-06-05 09:10:04] ERROR: Bybit order error: Order quantity has too many decimals.
+[2026-06-05 09:10:04] ERROR: Tick error: Order quantity has too many decimals.
+[2026-06-05 09:11:51] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:12:22] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:15:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:15:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:16:56] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:16:56] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:19:32] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:19:32] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Bybit order error: Insufficient balance.
+[2026-06-05 09:20:02] ERROR: Tick error: Insufficient balance.
+[2026-06-05 09:21:10] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com
+[2026-06-05 09:21:32] ERROR: Tick error: getaddrinfo EAI_AGAIN api.bybit.com

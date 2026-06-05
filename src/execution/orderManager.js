@@ -57,14 +57,18 @@ class OrderManager {
     logger.info(`Trade recorded | ID: ${trade._id}`);
   }
 
-  async executeSell(symbol, reason = 'MA_CROSSOVER_SELL') {
+  async executeSell(symbol, reason = 'SIGNAL') {
     if (!(await this.hasOpenPosition())) {
       logger.info('Skipping SELL — no open position.');
       return;
     }
 
-    const price  = await exchangeClient.getPrice(symbol);
-    const amount = this.openTrade.amount;
+    const price    = await exchangeClient.getPrice(symbol);
+    const currency = symbol.split('/')[0]; // XRP from XRP/USDT
+
+    // Use actual exchange balance instead of recorded amount
+    const actualBalance = await exchangeClient.getBalance(currency);
+    const amount        = actualBalance;
 
     if (!config.exchange.paperTrade) {
       await exchangeClient.placeOrder(symbol, 'sell', amount);
@@ -75,10 +79,10 @@ class OrderManager {
     const pnl = (price - this.openTrade.price) * amount;
 
     await Trade.findByIdAndUpdate(this.openTrade._id, {
-      status: 'closed',
+      status:   'closed',
       closedAt: new Date(),
       pnl,
-      signal: reason,
+      signal:   reason,
     });
 
     logger.info(`Position closed | PnL: ${pnl.toFixed(4)} USDT | Reason: ${reason}`);
